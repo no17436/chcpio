@@ -1,0 +1,151 @@
+
+body {
+  background-color: #fff;
+}
+.E-Rejestracja {
+  margin-top: 10px;
+  border-color: #2F2861;
+  background-color: #2F2861;
+  color: #fff;
+}
+.E-Rejestracja:hover {
+  background-color: #E2422F;
+  border-color: #E2422F;
+  color: #fff;
+}
+nav ul li a {
+  font-size: 16px;
+  color: #888;
+  background-color: #fff;
+  padding: 5px 0;
+}
+nav ul li:hover {
+  background-color: #fbfbfb;
+}
+nav ul li:first-child {
+  border-radius: 5px 0 0 5px;
+}
+nav ul li:last-child {
+  border-radius: 0 5px 5px 0;
+}
+.navbar-default {
+  background-color: inherit;
+  border-width: 0;
+}
+.dropdown-menu>li>a {
+  padding: 10px;
+}
+.photos {
+  width: 100%;
+  background-color: #fff;
+  border-top: 2px solid #C6C6D0;
+  position: absolute;
+}
+.photos img {
+  box-sizing: border-box;
+  /*position: relative;
+  top: 0;
+  left: 0;*/
+  width: 50%;
+  /*height: 450px;*/
+}
+.description {
+  font-family:'Arimo','Open Sans', sans-serif;
+  width: 40%;
+  /*position: relative;
+  top: 0;
+  right: 0;*/
+  display: inline-block;
+}
+.description p {
+  font-size: 38px;
+  /*position: relative;
+  top: 0;
+  right: 0;*/
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 10px;
+}
+.diagnostics {
+  color: #064771;
+}
+.care {
+  color: #064771;
+}
+.equipment {
+  color: #C0392B;
+
+}
+#carousel-example-generic {
+  height: 300px;
+  overflow: hidden;
+  border-bottom: 40px solid #E2422F;
+  margin-bottom: 20px;
+}
+.jasny {
+background-color: #E3D9DA;
+}
+.szary {
+  background-color: #C6BDC3;
+}
+.trzeci {
+  background-color: #DCE2EE;
+}
+.czwarty {
+  background-color: #CCD1E4;
+}
+.bialy {
+  background-color: #E8F1FA;
+}
+.niebieski {
+  background-color: #C3D8F1;
+}
+.zolty {
+  background-color: #FED585;
+}
+.zielony {
+  background-color: #9EB14A;
+}
+.dziewiaty {
+  background-color: #FAF7F6;
+}
+.dziesiaty {
+  background-color: #E5E0C3;
+}
+.granat {
+  background-color: #2F2861;
+
+}
+.czerwony {
+  background-color: #E2422F;
+  border-color: #E2422F;
+}
+.bialawy {
+  background-color: #FAFEFE;
+  }
+.niebieskawy {
+  background-color: #CFDCEF;
+  }
+.szarawy {
+ background-color: #E5E6E7;
+}
+.bardziejszarawy {
+  background-color: #E2D4C9;
+
+}
+.x {
+  background-color:#DBDEF1;
+}
+.c {
+  background-color: #F0F1F7;
+}
+.d {
+  background-color: #D6C4B1;
+}
+.col-md-4 {
+  padding: 30px;
+  height: 200px;
+}
+.pierwszyKwadrat {
+  color: #fff;
+}
