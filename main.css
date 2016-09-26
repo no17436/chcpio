@@ -81,7 +81,9 @@ nav ul li:last-child {
   overflow: hidden;
   border-bottom: 40px solid #E2422F;
   margin-bottom: 20px;
+  box-sizing: content-box;
 }
+
 .jasny {
 background-color: #E3D9DA;
 }
@@ -150,6 +152,10 @@ background-color: #E3D9DA;
   color: #fff;
 }
 
+.breadcrumb {
+  background-color: #E2D4C9;
+  height: 100px;
+}
 /*CSS DLA PORADNIE*/
 
 .headline {
