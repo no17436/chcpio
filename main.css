@@ -196,3 +196,35 @@ h1 {
 table th {
   border-top: 0;
 }
+
+/*SZPITAL*/
+.a {
+  background-image: url("http://chcpio.pl/typo3temp/pics/021e47c269.jpg");
+  height: 300px;
+  border-bottom: 30px solid #2F2861;
+}
+.b {
+  background-image: url("http://chcpio.pl/typo3temp/pics/021e47c269.jpg");
+  height: 300px;
+  border-bottom: 30px solid #E5E6E7;
+}
+.c {
+  background-image: url("http://chcpio.pl/typo3temp/pics/021e47c269.jpg");
+  height: 300px;
+  border-bottom: 30px solid #E2D4C9;
+}
+.history, .management, .administration {
+  margin-top: 20px;
+}
+.historyDecoration {
+  height: 200px;
+  border-left: 10px solid #2F2861;
+}
+.managementDecoration {
+  height: 200px;
+  border-left: 10px solid #E5E6E7;
+}
+.administrationDecoration {
+  height: 200px;
+  border-left: 10px solid #E2D4C9;
+}
