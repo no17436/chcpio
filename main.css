@@ -172,8 +172,12 @@ footer ul {
 }
 .main {
   margin-top: 0;
-  background-color: #E5E6E7;
+  background-color: #FAF7F6;;
   height: 200px;
+}
+.main p {
+  padding: 10px 0 10px 15px;
+
 }
 .headerClinic {
   height: 70px;
@@ -188,4 +192,7 @@ h1 {
   font-size: 16px;
   padding-top: 15px;
   text-transform: uppercase;
+}
+table th {
+  border-top: 0;
 }
