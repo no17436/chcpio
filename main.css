@@ -1,4 +1,3 @@
-
 body {
   background-color: #fff;
 }
@@ -43,25 +42,15 @@ nav ul li:last-child {
 }
 .photos img {
   box-sizing: border-box;
-  /*position: relative;
-  top: 0;
-  left: 0;*/
   width: 50%;
-  /*height: 450px;*/
 }
 .description {
   font-family:'Arimo','Open Sans', sans-serif;
   width: 40%;
-  /*position: relative;
-  top: 0;
-  right: 0;*/
   display: inline-block;
 }
 .description p {
   font-size: 38px;
-  /*position: relative;
-  top: 0;
-  right: 0;*/
   display: inline-block;
   margin-top: 0;
   margin-left: 10px;
@@ -83,7 +72,6 @@ nav ul li:last-child {
   margin-bottom: 20px;
   box-sizing: content-box;
 }
-
 .jasny {
 background-color: #E3D9DA;
 }
@@ -102,12 +90,6 @@ background-color: #E3D9DA;
 .niebieski {
   background-color: #C3D8F1;
 }
-.zolty {
-  background-color: #FED585;
-}
-.zielony {
-  background-color: #9EB14A;
-}
 .dziewiaty {
   background-color: #FAF7F6;
 }
@@ -116,7 +98,6 @@ background-color: #E3D9DA;
 }
 .granat {
   background-color: #2F2861;
-
 }
 .czerwony {
   background-color: #E2422F;
@@ -128,12 +109,11 @@ background-color: #E3D9DA;
 .niebieskawy {
   background-color: #CFDCEF;
   }
-.szarawy {
+.resonance {
  background-color: #E5E6E7;
 }
-.bardziejszarawy {
+.tomograph {
   background-color: #E2D4C9;
-
 }
 .x {
   background-color:#DBDEF1;
@@ -144,14 +124,20 @@ background-color: #E3D9DA;
 .d {
   background-color: #D6C4B1;
 }
-.col-md-4 {
+.ptr div {
   padding: 30px;
   height: 200px;
 }
-.pierwszyKwadrat {
+.pet {
   color: #fff;
+  background-color: #2F2861;
 }
-
+.rezonans {
+ background-color: #E5E6E7;
+}
+.tomografia {
+  background-color: #E2D4C9;
+}
 /*footer*/
 footer {
   height: 200px;
@@ -216,8 +202,9 @@ table th {
 .history, .management, .administration, .donors {
   margin-top: 20px;
 }
-.historyText h1, .administrationText h1, .managementText h1, .donorsText h1{
+.historyText h2, .administrationText h2, .managementText h2, .donorsText h2 {
   padding-top: 0;
+  font-size: 18px;
 }
 .historyDecoration {
   height: 200px;
@@ -235,3 +222,6 @@ table th {
   height: 200px;
   border-left: 10px solid #E2422F;
   }
+.donorsLogo {
+  height: 200px;
+}
