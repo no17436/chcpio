@@ -198,23 +198,26 @@ table th {
 }
 
 /*SZPITAL*/
-.a {
+.oldPhotoLeft {
   background-image: url("http://chcpio.pl/typo3temp/pics/021e47c269.jpg");
   height: 300px;
   border-bottom: 30px solid #2F2861;
 }
-.b {
+.oldPhotoMiddle {
   background-image: url("http://chcpio.pl/typo3temp/pics/021e47c269.jpg");
   height: 300px;
   border-bottom: 30px solid #E5E6E7;
 }
-.c {
+.oldPhotoRight {
   background-image: url("http://chcpio.pl/typo3temp/pics/021e47c269.jpg");
   height: 300px;
   border-bottom: 30px solid #E2D4C9;
 }
-.history, .management, .administration {
+.history, .management, .administration, .donors {
   margin-top: 20px;
+}
+.historyText h1, .administrationText h1, .managementText h1, .donorsText h1{
+  padding-top: 0;
 }
 .historyDecoration {
   height: 200px;
@@ -225,6 +228,10 @@ table th {
   border-left: 10px solid #E5E6E7;
 }
 .administrationDecoration {
-  height: 200px;
+  height: 250px;
   border-left: 10px solid #E2D4C9;
 }
+.donorsDecoration {
+  height: 200px;
+  border-left: 10px solid #E2422F;
+  }
