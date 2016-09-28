@@ -219,9 +219,18 @@ table th {
   border-left: 10px solid #E2D4C9;
 }
 .donorsDecoration {
-  height: 200px;
+  height: 300px;
   border-left: 10px solid #E2422F;
   }
 .donorsLogo {
   height: 200px;
+}
+.otherDonorsLogo {
+  height: 40px;
+}
+.donorsText p {
+  padding-top: 10px 0 0 8px;
+}
+.glyphicon-heart {
+  color: #E2422F;
 }
