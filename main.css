@@ -148,6 +148,9 @@ footer ul {
   padding-right: 0;
   margin: 0 0 0 0;
 }
+.clinicsAddMenu a:hover {
+  border: 3px solid #E2422F;
+}
 .headline {
   margin-top: 20px;
   background-color: #E5E6E7;
@@ -276,7 +279,7 @@ table th {
 iframe {
   height: 300px;
 }
-.headerContact {
+.headerContact, .headerDrive {
   background-color: #FAF7F6;
 }
 .headerContact h2, .headerDrive h2 {
@@ -286,9 +289,6 @@ iframe {
   padding: 10px;
   margin: 0;
 }
-.headerDrive {
-  background-color: #FAF7F6;
-}
 address {
   padding: 20px;
 }
@@ -297,6 +297,33 @@ address {
   margin-top: 20px;
 }
 /*TELEPHONS*/
-.glyphicon-earphone {
-
+.phonesAddMenu {
+  padding: 0;
+  margin: 0;
+}
+.phonesAddMenu a:hover {
+  border: 3px solid #E2422F;
+}
+.phoneClinics, .officePhone {
+  color: #fff;
+  background-color: #2F2861;
+}
+.phoneClinics h2, .phoneDepartments h2, .phoneDiagnostics h2,
+.managementPhone h2, .officePhone h2, .administrationPhone h2 {
+  font-size: 16px;
+  text-align:center;
+  padding: 10px 0;
+  margin: 0;
+}
+.phoneDepartments {
+  background-color: #E5E6E7;
+}
+.phoneDiagnostics {
+  background-color: #E2D4C9;
+}
+.managementPhone {
+  background-color: #E2422F;
+}
+.administrationPhone {
+  background-color: #CCD1E4;
 }
