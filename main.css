@@ -143,8 +143,11 @@ footer img {
 footer ul {
   margin-top: 10px;
 }
-/*CSS DLA PORADNIE*/
-
+/*CSS DLA PORADNI*/
+.clinicsAddMenu {
+  padding-right: 0;
+  margin: 0 0 0 0;
+}
 .headline {
   margin-top: 20px;
   background-color: #E5E6E7;
@@ -159,13 +162,11 @@ footer ul {
   padding: 10px 0 10px 15px;
 }
 .headerClinic {
-  height: 50px;
-  background-color: #2F2861;
-  color: #fff;
+  height: 167px;
+  background-color: #FAF7F6;
+  color: #000000;
   text-transform: uppercase;
   font-size: 16px;
-  text-align:center;
-  padding-top: 25px;
 }
 h1 {
   font-size: 16px;
@@ -195,7 +196,8 @@ table th {
 .history, .management, .administration, .donors {
   margin-top: 20px;
 }
-.historyText h2, .administrationText h2, .managementText h2, .donorsText h2 {
+.historyText h2, .administrationText h2, .managementText h2, .donorsText h2,
+.certificationsText h2, .galleryText h2 {
   padding-top: 0;
   font-size: 18px;
 }
@@ -215,7 +217,7 @@ table th {
   border-left: 10px solid #E2422F;
 }
 .donorsDecoration {
-    height: 300px;
+  height: 300px;
 }
 .galleryDecoration {
   height: 250px;
