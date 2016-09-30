@@ -199,7 +199,7 @@ table th {
   padding-top: 0;
   font-size: 18px;
 }
-.historyDecoration {
+.historyDecoration, .certificationsDecoration {
   height: 200px;
   border-left: 10px solid #2F2861;
 }
@@ -217,6 +217,10 @@ table th {
 .donorsDecoration {
     height: 300px;
 }
+.galleryDecoration {
+  height: 250px;
+  border-left: 10px solid #CCD1E4;
+}
 .donorsLogo {
   height: 200px;
 }
@@ -228,6 +232,34 @@ table th {
 }
 .glyphicon-heart {
   color: #E2422F;
+}
+.hospitalAddMenu {
+  padding-right: 0;
+  margin: 30px 0 0 0;
+}
+.hospitalAddMenu a:hover {
+  border: 3px solid #E2422F;
+}
+.hospitalHistory, .hospitalCertifications {
+  background-color: #2F2861;
+}
+.hospitalHistory a, .hospitalDonors a, .hospitalCertifications a {
+  color: #fff;
+}
+.hospitalHistory a:hover, .hospitalDonors a:hover, .hospitalCertifications a:hover {
+  color: #000000;
+}
+.hospitalManagement {
+  background-color: #E5E6E7;
+}
+.hospitalAdministration {
+  background-color: #E2D4C9;
+}
+.hospitalDonors {
+  background-color: #E2422F;
+}
+.hospitalGallery {
+  background-color: #CCD1E4;
 }
 /*CONTACT*/
 .contactData {
@@ -264,5 +296,5 @@ address {
 }
 /*TELEPHONS*/
 .glyphicon-earphone {
-  
+
 }
