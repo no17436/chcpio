@@ -270,6 +270,11 @@ table th {
 .contactData {
   background-color: #E2D4C9;
 }
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
 iframe {
   height: 300px;
 }
