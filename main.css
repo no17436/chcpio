@@ -4,6 +4,11 @@
     display: block;
   }
 }
+@media (max-width: 768px) {
+  .dropdown-menu>li>a {
+    white-space: normal;
+  }
+}
 body {
   background-color: #fff;
 }
@@ -53,7 +58,6 @@ nav ul li:last-child {
 .dropdown-menu>li>a {
   padding: 10px;
   color: #fff;
-  white-space: normal;
 }
 .dropdown-menu .divider {
   background-color: #777;
@@ -87,7 +91,6 @@ nav ul li:last-child {
 }
 .equipment {
   color: #C0392B;
-
 }
 #carousel-example-generic {
   height: 300px;
@@ -96,63 +99,26 @@ nav ul li:last-child {
   margin-bottom: 20px;
   box-sizing: content-box;
 }
-.jasny {
-background-color: #E3D9DA;
+.ptr div {
+  padding: 0;
+  border-right: 3px solid #fff;
 }
-.szary {
-  background-color: #C6BDC3;
+.ptr p {
+  text-align: center;
+  padding: 8px;
 }
-.trzeci {
-  background-color: #DCE2EE;
+.ptr img {
+  width: 100%;
 }
-.czwarty {
-  background-color: #CCD1E4;
+.resonance p {
+  color: #000;
+  background-color: #E5E6E7;
 }
-.bialy {
-  background-color: #E8F1FA;
-}
-.niebieski {
-  background-color: #C3D8F1;
-}
-.dziewiaty {
-  background-color: #FAF7F6;
-}
-.dziesiaty {
-  background-color: #E5E0C3;
-}
-.granat {
-  background-color: #2F2861;
-}
-.czerwony {
-  background-color: #E2422F;
-  border-color: #E2422F;
-}
-.bialawy {
-  background-color: #FAFEFE;
-  }
-.niebieskawy {
-  background-color: #CFDCEF;
-  }
-.resonance {
- background-color: #E5E6E7;
-}
-.tomograph {
+.tomograph p {
+  color: #000;
   background-color: #E2D4C9;
 }
-.x {
-  background-color:#DBDEF1;
-}
-.c {
-  background-color: #F0F1F7;
-}
-.d {
-  background-color: #D6C4B1;
-}
-.ptr div {
-  padding: 30px;
-  height: 200px;
-}
-.pet {
+.pet p {
   color: #fff;
   background-color: #2F2861;
 }
@@ -166,6 +132,19 @@ footer img {
 }
 footer ul {
   margin-top: 10px;
+}
+footer .logo {
+  margin-top: 120px;
+}
+footer .addfooter, footer .addfooter li a {
+  margin-top: 20px;
+  background-color: #a0a0a0;;
+  height: 100px;
+  color: #fff;
+  font-size: 14px;
+}
+footer .addfooter ul {
+  padding-top: 10px;
 }
 /*CSS DLA PORADNI*/
 .clinicsAddMenu {
