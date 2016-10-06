@@ -1,3 +1,9 @@
+/*dla głównego menu*/
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+}
 body {
   background-color: #fff;
 }
@@ -13,13 +19,13 @@ body {
   color: #fff;
 }
 nav ul li a {
+  color: #fff;
   font-size: 16px;
-  color: #888;
-  background-color: #fff;
   padding: 5px 0;
 }
+
 nav ul li:hover {
-  background-color: #fbfbfb;
+  background-color: #2F2861;
 }
 nav ul li:first-child {
   border-radius: 5px 0 0 5px;
@@ -28,11 +34,28 @@ nav ul li:last-child {
   border-radius: 0 5px 5px 0;
 }
 .navbar-default {
-  background-color: inherit;
+  background-color: #2F2861;
+  margin: 20px -15px;
+  border-radius: 0;
+}
+.navbar-default .navbar-nav>li>a {
+  background-color: #2F2861;
+  color: #fff;
   border-width: 0;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  color: #fff;
+}
+.dropdown-menu {
+  background-color: #2F2861;
+  border: 0;
 }
 .dropdown-menu>li>a {
   padding: 10px;
+  color: #fff;
+}
+.dropdown-menu .divider {
+  background-color: #777;
 }
 .photos {
   width: 100%;
@@ -269,11 +292,6 @@ table th {
 /*KONTAKT*/
 .contactData {
   background-color: #E2D4C9;
-}
-@media (min-width: 768px) {
-  .dropdown:hover .dropdown-menu {
-    display: block;
-  }
 }
 iframe {
   height: 300px;
