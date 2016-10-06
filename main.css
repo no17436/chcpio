@@ -53,6 +53,7 @@ nav ul li:last-child {
 .dropdown-menu>li>a {
   padding: 10px;
   color: #fff;
+  white-space: normal;
 }
 .dropdown-menu .divider {
   background-color: #777;
