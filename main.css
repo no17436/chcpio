@@ -124,9 +124,6 @@ nav ul li:last-child {
   background-color: #2F2861;
 }
 /*footer*/
-footer {
-  height: 200px;
-}
 footer img {
   height: 50px;
   margin: 20px;
@@ -137,15 +134,21 @@ footer ul {
 footer .logo {
   margin-top: 120px;
 }
+footer .addfooter {
+  height: 200px;
+}
+.addfooter ul {
+  margin-bottom: 40px;
+}
 footer .addfooter, footer .addfooter li a {
   margin-top: 20px;
   background-color: #a0a0a0;;
-  height: 100px;
   color: #fff;
   font-size: 14px;
 }
 footer .addfooter ul {
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /*CSS DLA PORADNI*/
 .clinicsAddMenu {
