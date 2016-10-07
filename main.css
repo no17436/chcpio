@@ -1,14 +1,22 @@
 /*dla głównego menu*/
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .dropdown:hover .dropdown-menu {
     display: block;
   }
 }
-@media (max-width: 768px) {
-  .dropdown-menu>li>a {
+@media (max-width: 992px) {
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a,
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
     white-space: normal;
+    color: #fff
   }
 }
+@media (max-width: 1200px) and (min-width: 993px) {
+  .nav>li>a {
+    padding: 12px 5px 5px 5px;
+  }
+}
+
 body {
   background-color: #fff;
   font-family: 'Open Sans', sans-serif;
