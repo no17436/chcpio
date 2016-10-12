@@ -1,0 +1,349 @@
+@navyblue: #2F2861;
+@white: #fff;
+@red: #E2422F;
+@lightblue: #E5E6E7;
+@mainfont : 'Open Sans';
+@black : #000;
+
+.defaultMainMenu {
+  background-color: @navyblue;
+  color: @white;
+  border-width: 0;
+}
+body {
+  background-color: @white;
+  font-family: @mainfont, sans-serif;
+}
+.container {
+  /*box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.75);*/
+}
+.E-Rejestracja {
+  margin-top: 10px;
+  border-color: @navyblue;
+  background-color: @navyblue;
+  color: @white;
+  border-radius: 3px;
+  &:hover {
+    background-color: @red;
+    border-color: @red;
+    color: @white;
+  }
+}
+nav ul {
+  li {
+    &:hover { background-color: @navyblue }
+    &:first-child { border-radius: 5px 0 0 5px }
+    &:last-child { border-radius: 0 5px 5px 0 }
+    a {
+      color: @white;
+      font-size: 16px;
+      padding: 5px 0;
+    }
+  }
+}
+.navbar-default {
+  background-color: @navyblue;
+  margin: 20px -15px;
+  border-radius: 0;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover,
+.btn-default.focus, .btn-default:focus,
+.btn-default:active {
+  .defaultMainMenu;
+}
+.dropdown-menu {
+  .defaultMainMenu;
+  .divider {
+    background-color: #777;
+  }
+  >li>a {
+    padding: 10px;
+    color: @white;
+  }
+}
+.photos {
+  width: 100%;
+  background-color: @white;
+  border-top: 2px solid #C6C6D0;
+  position: absolute;
+  img {
+    box-sizing: border-box;
+    width: 50%;
+  }
+}
+.description {
+  font-family:'Arimo', @mainfont, sans-serif;
+  width: 40%;
+  display: inline-block;
+  p {
+    font-size: 38px;
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 10px;
+  }
+}
+
+// todo:spr czy ponizsze klasy wykorzystuje
+// .diagnostics {
+//   color: #064771;
+// }
+// .care {
+//   color: #064771;
+// }
+// .equipment {
+//   color: #C0392B;
+// }
+#carousel-example-generic {
+  height: 300px;
+  overflow: hidden;
+  border-bottom: 40px solid @red;
+  margin-bottom: 20px;
+  box-sizing: content-box;
+}
+.ptr {
+  div {
+    padding: 0;
+  }
+  p {
+    text-align: center;
+    padding: 8px;
+  }
+  img {
+    width: 100%;
+  }
+}
+.resonance p {
+  color: @black;
+  background-color: @lightblue;
+}
+.pet {
+  border-right: 3px solid @white;
+  p {
+    color: @white;
+    background-color: @navyblue;
+  }
+}
+.tomograph {
+  border-right: 3px solid @white;
+  p {
+    color: @black;
+    background-color: #E2D4C9;
+  }
+}
+
+/*footer*/
+footer {
+  img {
+    height: 50px;
+    margin: 20px;
+  }
+  .logo {
+    margin-top: 100px;
+  }
+  .addfooter {
+    background-color: #a0a0a0;
+    color: @white;
+    font-size: 14px;
+    padding-top: 50px;
+    margin-top: 10px;
+    height: 200px;
+    ul li a {
+      color: @white;
+      text-decoration: underline;
+    }
+  }
+}
+.addfooter .addressData {
+  color: @white;
+  text-decoration: none;
+}
+.copyright {
+  background-color: #a0a0a0;
+  color: @white;
+  font-size: 14px;
+  height: 70px;
+}
+/*CSS DLA PORADNI*/
+.clinicsAddMenu {
+  padding-right: 0;
+  margin: 0 0 0 0;
+  a:hover {
+    border: 3px solid @red;
+  }
+}
+.headline {
+  margin-top: 20px;
+  background-color: @lightblue;
+  height: 60px;
+}
+.main {
+  margin-top: 0;
+  background-color: #FAF7F6;;
+  height: 200px;
+  p {
+    padding: 10px 0 10px 15px;
+  }
+}
+.headerClinic {
+  height: 167px;
+  background-color: #FAF7F6;
+  color: @black;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+h1 {
+  font-size: 16px;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+table th {
+  border-top: 0;
+}
+
+/*SZPITAL*/
+.oldPhotoLeft {
+  background-image: url("http://chcpio.pl/typo3temp/pics/021e47c269.jpg");
+  height: 300px;
+  border-bottom: 30px solid @navyblue;
+}
+.oldPhotoMiddle {
+  background-image: url("http://chcpio.pl/typo3temp/pics/021e47c269.jpg");
+  height: 300px;
+  border-bottom: 30px solid @lightblue;
+}
+.oldPhotoRight {
+  background-image: url("http://chcpio.pl/typo3temp/pics/021e47c269.jpg");
+  height: 300px;
+  border-bottom: 30px solid #E2D4C9;
+}
+.history, .management, .administration, .donors {
+  margin-top: 20px;
+}
+.historyText h2, .administrationText h2, .managementText h2, .donorsText h2,
+.certificationsText h2, .galleryText h2 {
+  padding-top: 0;
+  font-size: 18px;
+}
+.historyDecoration, .certificationsDecoration {
+  height: 200px;
+  border-left: 10px solid @navyblue;
+}
+.managementDecoration {
+  height: 200px;
+  border-left: 10px solid @lightblue;
+}
+.administrationDecoration {
+  height: 250px;
+  border-left: 10px solid #E2D4C9;
+}
+.donorsDecoration, .otherDonorsDecoration {
+  border-left: 10px solid @red;
+}
+.donorsDecoration {
+  height: 300px;
+}
+.galleryDecoration {
+  height: 250px;
+  border-left: 10px solid #CCD1E4;
+}
+.donorsLogo {
+  height: 200px;
+}
+.otherDonorsDecoration {
+  height: 220px;
+}
+.donorsText p {
+  padding-top: 10px 0 0 8px;
+}
+.glyphicon-heart {
+  color: @red;
+}
+.hospitalAddMenu {
+  padding-right: 0;
+  margin: 30px 0 0 0;
+  a:hover {
+    border: 3px solid @red;
+  }
+}
+
+.hospitalHistory, .hospitalCertifications {
+  background-color: @navyblue;
+}
+.hospitalHistory a, .hospitalDonors a, .hospitalCertifications a {
+  color: @white;
+}
+.hospitalHistory a:hover, .hospitalDonors a:hover, .hospitalCertifications a:hover {
+  color: @black;
+}
+.hospitalManagement {
+  background-color: @lightblue;
+}
+.hospitalAdministration {
+  background-color: #E2D4C9;
+}
+.hospitalDonors {
+  background-color: @red;
+}
+.hospitalGallery {
+  background-color: #CCD1E4;
+}
+/*KONTAKT*/
+.contactData {
+  background-color: #E2D4C9;
+}
+iframe {
+  height: 300px;
+}
+.headerContact, .headerDrive {
+  background-color: #FAF7F6;
+}
+.headerContact h2, .headerDrive h2 {
+  color: @black;
+  font-size: 18px;
+  text-align:center;
+  padding: 10px;
+  margin: 0;
+}
+address {
+  padding: 20px;
+}
+.panel-default {
+  border: 0;
+  margin-top: 20px;
+}
+/*TELEFONY*/
+.phonesAddMenu {
+  padding: 0;
+  margin: 0;
+  a:hover {
+    border: 3px solid @red;
+  }
+}
+.phoneClinics, .officePhone {
+  color: @white;
+  background-color: @navyblue;
+}
+.phoneClinics h2, .phoneDepartments h2, .phoneDiagnostics h2,
+.managementPhone h2, .officePhone h2, .administrationPhone h2 {
+  font-size: 16px;
+  text-align:center;
+  padding: 10px 0;
+  margin: 0;
+}
+.phoneDepartments {
+  background-color: @lightblue;
+}
+.phoneDiagnostics {
+  background-color: #E2D4C9;
+}
+.managementPhone {
+  background-color: @red;
+}
+.administrationPhone {
+  background-color: #CCD1E4;
+}
