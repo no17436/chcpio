@@ -6,14 +6,14 @@
     <script src="https://code.jquery.com/jquery-3.1.0.min.js"
     integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
     crossorigin="anonymous"></script>
-    <link rel="stylesheet"
-     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-     crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet/less" type="text/css" href="css/main.less" />
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
     <script src="main.js"></script>
   </head>
   <body>
@@ -131,99 +131,230 @@
       </nav>
 
       <!-- dodatkowe menu -->
-      <section class="row">
-        <div class="col-md-7 headerClinic">
-          Poradnia Alergologiczna i Immunologiczna Dla Dzieci
+      <section class="row sectionCare">
+        <div class="col-md-8 addressClinic">
+          <strong>PRZYSZPITALNE PORADNIE SPECJALISTYCZNE</strong><br>
+          ul. Władysława Truchana 7  41-500 Chorzów<br>
+          tel.: 32/34 90 000<br>
+          e-mail: <a href="mailto:poradnia@chcpio.pl">poradnia@chcpio.pl</a>
         </div>
-        <div class="col-md-5 clinicsAddMenu">
-          <ul class="nav nav-pills nav-stacked">
-            <li role="presentation" class="hospitalHistory">
-              <a href="#">DANE TELEADRESOWE</a>
-            </li>
-            <li role="presentation" class="hospitalManagement">
-              <a href="#">DYREKCJA</a>
-            </li>
-            <li role="presentation" class="hospitalAdministration">
-              <a href="#">HARMONOGRAM PRACY REJESTRACJI I PRZYJĘĆ</a>
-            </li>
-            <li role="presentation" class="hospitalDonors">
-              <a href="#">CO NALEŻY WIEDZIEĆ PRZED WIZYTĄ</a>
-            </li>
+        <div class="col-md-4">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#">Umowa z NFZ</a></li>
+            <li class="list-group-item"><a href="#">Godziny pracy rejestracji</a></li>
+            <li class="list-group-item"><a href="#">Rejestracja telefoniczna</a></li>
+            <li class="list-group-item"><a href="#">e-Rejestracja</a></li>
+            <li class="list-group-item"><a href="#">Harmonogram pracy pracowni</a></li>
+            <li class="list-group-item"><a href="#">Niezbędne dokumenty</a></li>
+            <li class="list-group-item"><a href="#">Przygotowanie przed wizytą</a></li>
           </ul>
         </div>
+        <div class="col-md-8 nfz">
+          <p><strong>Poradnie specjalistyczne realizowane w ramach umowy z NFZ : </strong><br><br>
+          Wymagane skierowanie od lekarza podstawowej opieki zdrowotnej (POZ)<br>
+          lub lekarza specjalisty udzielającego świadczeń w ramach umowy z NFZ.</p>
+          <img src="photos/nfz_logo.png" width="150px">
+        </div>
       </section>
 
-      <section class="row">
-        <div class="col-md-7 headline">
-          <h1>Dane teleadresowe:</h1>
-        </div>
-        <div class="col-md-7 main">
-          <table class="table">
+      <section class="row sectionCare">
+        <div class="col-md-8 main">
+          <h1>
+            <strong>Harmonogram pracy rejestracji i przyjęć w poradniach
+            specjalistycznych</strong>
+          </h1>
+          <table class="table hoursCare">
             <tr>
-              <th>Lekarz przyjmujący:</th>
-              <th>Telefony stacjonarne:</th>
+              <th colspan="2">Godziny otwarcia rejestracji poradni</th>
             </tr>
             <tr>
-              <td>Adam Nowak</td>
-              <td>+48 675 789 234</td>
+              <td>8.00 - 17.00</td>
+              <td>poniedziałek - piątek</td>
+            </tr>
+            <tr>
+              <td>8.00 - 18.00</td>
+              <td>czwartek</td>
+            </tr>
+            <tr>
+              <td>poradnia nieczynna</td>
+              <td>sobota - niedziela</td>
+            </tr>
+            <tr>
+              <th colspan="2">Rejestracja telefoniczna</th>
+            </tr>
+            <tr>
+              <td>32/349 00 90</td>
+              <td>rejestracja w godzinach otwarcia</td>
+            </tr>
+            <tr>
+              <th colspan="2">Ustalanie wizyt drogą elektroniczną</th>
+            </tr>
+            <tr>
+              <td>e-mail: <a href="mailto:poradnia@chcpio.pl">poradnia@chcpio.pl</a></td>
+              <td>zakładka <a href="#">e-rejestracja</a></td>
             </tr>
           </table>
         </div>
       </section>
 
-      <section class="row">
-        <div class="col-md-7 headline">
-          <h1>Harmonogram pracy rejestracji i przyjęć:</h1>
-        </div>
-        <div class="col-md-7 main">
-          <table class="table">
+      <section class="row sectionCare">
+        <div class="col-md-8 main">
+          <h1>
+            <strong>Harmonogram pracy poszczególnych poradni specjalistycznych</strong>
+          </h1>
+          <table class="table hoursCare">
             <tr>
-              <th>Godziny przyjęć</th>
-              <th>abc</th>
+              <th colspan="2">PORADNIA ALERGOLOGICZNA</th>
             </tr>
             <tr>
-              <td>7.00 - 15.00</td>
-              <td>abc</td>
+              <td>poniedziałek – piątek</td>
+              <td>dr n. med. Magdalena Sąda – Cieślar<br>
+                  dr n. med. Zofia Buszman<br>
+                  dr n. med. Małgorzata Lacheta<br>
+                  lek. med. Ewa Szyguła – Kotala
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">PORADNIA AUDIOLOGICZNA</th>
+            </tr>
+            <tr>
+              <td>poniedziałek – piątek</td>
+              <td>dr n. med. Małgorzata Góra<br>
+                  lek. med. Ewa Zawiślak – Budny</br>
+                  lek. med. Ewa Bulska – Dobrowolska
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">PORADNIA CHIRURGICZNA</th>
+            </tr>
+            <tr>
+              <td>poniedziałek – piątek</td>
+              <td>prof. dr hab. n. med. Jerzy Niedzielski<br>
+                  dr n. med. Elżbieta Wierucka<br>
+                  dr n. med. Jadwiga Hawranek<br>
+                  dr n. med. Marzenna Gubała-Kacała<br>
+                  dr n. med. Jacek Ciekalski<br>
+                  lek. med. Lucyna Wierucka<br>
+                  lek. med. Dariusz Baszczowski<br>
+                  lek. med. Bartosz Broen<br>
+                  lek. med. Łukasz Dworniczak<br>
+                  lek. med. Daria Juraszek<br>
+                  lek. med. Ireneusz Kohut<br>
+                  lek. med. Joanna Przesławska
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">PORADNIA URAZOWO-ORTOPEDYCZNA</th>
+            </tr>
+            <tr>
+              <td>poniedziałek – piątek</td>
+              <td>dr n. med. Zbigniew Pilecki<br>
+                  dr n. med. Grzegorz Pilecki<br>
+                  dr n. med. Jacek Ciekalski<br>
+                  lek. med. Piotr Łydka<br>
+                  lek. med. Jakub Ptaszkiewicz<br>
+                  lek. med. Mariusz Kadela<br>
+                  lek. med. Marcin Bociański
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">PORADNIA HEMATOLOGICZNO-ONKOLOGICZNA</th>
+            </tr>
+            <tr>
+              <td>poniedziałek – piątek</td>
+              <td>dr n. med. Maria Wieczorek<br>
+                  dr n. med. Mariola Woszczyk<br>
+                  lek. med. Irena Karpińska – Derda<br>
+                  lek. med. Teresa Piętka
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">PORADNIA NEUROLOGICZNA</th>
+            </tr>
+            <tr>
+              <td>poniedziałek – czwartek</td>
+              <td>dr n. med. Magdalena Dudzińska<br>
+                  lek. med. Teresa Kleist<br>
+                  lek. med. Elżbieta Piasecka - Frąc<br>
+                  lek. med. Danuta Stettner
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">PORADNIA NEFROLOGICZNA</th>
+            </tr>
+            <tr>
+              <td>wtorek – piątek</td>
+              <td>dr n. med. Barbara Pulcer<br>
+                  dr n. med. Ewa Gacka<br>
+                  lek. med. Grażyna Kucharska<br>
+                  lek. med. Janina Taraszkiewicz
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">PORADNIA OKULISTYCZNA</th>
+            </tr>
+            <tr>
+              <td>poniedziałek – piątek</td>
+              <td>dr n. med. Barbara Rybus – Kalinowska<br>
+                  lek. med. Bogna Teodorowicz – Rachuba<br>
+                  lek. med. Iwona Stęchły<br>
+                  lek. med. Liliana Prudło<br>
+                  lek. med. Katarzyna Rycaj
+              </td>
+            </tr>
+            <tr>
+              <th colspan="2">PORADNIA OTOLARYNGOLOGICZNA</th>
+            </tr>
+            <tr>
+              <td>poniedziałek – piątek</td>
+              <td>lek. med. Agnieszka Kudelko<br>
+                  lek. med. Marek Ociepka<br>
+                  lek. med. Jarosław Sak<br>
+                  lek. med. Dariusz Świdziński<br>
+                  lek. med. Sławomir Wróbel<br>
+                  lek. med. Beniamin Rauc
+              </td>
             </tr>
           </table>
         </div>
       </section>
 
-      <section class="row">
-        <div class="col-md-7 headline">
-          <h1>Dokumenty niezbędne przy przyjęciu do poradni specjalistycznych:</h1>
-        </div>
-        <div class="col-md-7 main">
-          <p>Do badania Rezonansu Magnetycznego z kontrastem pacjent powinien zgłosić się:
+      <section class="row sectionCare">
+        <div class="col-md-12 main">
+          <h1>
+            <strong>Dokumenty niezbędne przy przyjęciu do poradni
+              specjalistycznych</strong>
+          </h1>
+          <p> - Skierowanie od lekarza podstawowej opieki zdrowotnej (POZ)
+             lub lekarza specjalisty udzielającego świadczeń w ramach umowy
+             z NFZ<br><br>
 
-            ze skierowaniem, dowodem osobistym i kartą NFZ (woj. śląskie)
-            z oznaczonym poziomem kreatyniny
-            3 godziny przed badaniem nie jeść
-            3 godziny przed badaniem nie pić
-            dostarczyć kserokopie dokumentacji medycznej (badania TK/MR/USG/RTG, wypisy) oraz płyty lub klisze z wcześniejszych badań
-            Do badania Rezonansu magnetycznego bez podania środka kontrastowego pacjent powinien zgłosić się:
-
-            ze skierowaniem, dowodem osobistym i kartą NFZ (woj. ślaskie)
-            dostarczyć kserokopie dokumentacji medycznej (badania TK/MR/USG/RTG, wypisy) oraz płyty lub klisze z wcześniejszych badań
+            - Elektroniczna karta ubezpieczenia zdrowotnego / Pesel pacjenta
+            <br><br>
+            - Dokument potwierdzający tożsamość opiekuna prawnego dziecka
           </p>
         </div>
       </section>
 
-      <section class="row">
-        <div class="col-md-7 headline">
-          <h1>Co należy wiedzieć przed wizytą w poradni?</h1>
-        </div>
-        <div class="col-md-7 main">
-          <p>Przeciwskazanie do wykonania badania MR są:
-            rozrusznik serca
-            kardiowerter
-            metalowe plyty/śruby/opiłki w ciele
-            implant ślimakowy
-
-            Pacjent posiadający by-passy, stenty, endoprotezy, zespolenia po operacjach
-            musi posiadać zaświadczenie o braku przeciwskazań do wykonania badania MR.
+      <section class="row sectionCare">
+        <div class="col-md-12 main">
+          <h1>
+            <strong>Co należy wiedzieć przed wizytą w poradni?</strong>
+          </h1>
+          <p> - Świadczenia w poradniach specjalistycznych, udzielane są na
+            podstawie skierowania od lekarza podstawowej opieki zdrowotnej (POZ)
+            lub innego lekarza udzielającego świadczeń w ramach umowy z NFZ.
+            Skierowaniem do lekarza specjalisty nie jest karta informacyjna z
+            leczenia szpitalnego, izby przyjęć czy szpitalnego oddziału
+            ratunkowego.<br><br>
+           - W celu ustalenia terminu pierwszej oraz kolejnej wizyty, należy
+           wyznaczyć termin w rejestracji poradni osobiście lub telefonicznie.
+           <br><br>
+           - W przypadku wizyty pierwszorazowej należy podejść do rejestracji
+           w celu założenia kartoteki pacjenta
           </p>
         </div>
       </section>
+
     </div>
   </body>
