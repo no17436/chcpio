@@ -1,50 +1,30 @@
 @navyblue: #2F2861;
 @white: #fff;
 @red: #E2422F;
-@lightblue: #E5E6E7;
-@mainfont : 'Open Sans';
+@lightblue: #0080A5;
 @black : #000;
 
+.logoChcpio {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.navbar-default {
+  background-color: @lightblue;
+  border-radius: 0;
+}
 .defaultMainMenu {
-  background-color: @navyblue;
+  background-color: @lightblue;
   color: @white;
-  border-width: 0;
+  border-right: 1px solid #006e8e;
+  font-size: 14px;
+}
+.menu .container {
+  margin-right: 0;
 }
 body {
   background-color: @white;
-  font-family: @mainfont, sans-serif;
-}
-.container {
-  /*box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.75);*/
-}
-.E-Rejestracja {
-  margin-top: 10px;
-  border-color: @navyblue;
-  background-color: @navyblue;
-  color: @white;
-  border-radius: 3px;
-  &:hover {
-    background-color: @red;
-    border-color: @red;
-    color: @white;
-  }
-}
-nav ul {
-  li {
-    &:hover { background-color: @navyblue }
-    &:first-child { border-radius: 5px 0 0 5px }
-    &:last-child { border-radius: 0 5px 5px 0 }
-    a {
-      color: @white;
-      font-size: 16px;
-      padding: 5px 0;
-    }
-  }
-}
-.navbar-default {
-  background-color: @navyblue;
-  margin: 20px -15px;
-  border-radius: 0;
+  font-family: Open Sans, sans-serif;
+  // font-family: 'Abel', sans-serif;
 }
 .navbar-default .navbar-nav>li>a,
 .navbar-default .navbar-nav>li>a:focus,
@@ -58,86 +38,12 @@ nav ul {
 }
 .dropdown-menu {
   .defaultMainMenu;
-  .divider {
-    background-color: #777;
-  }
   >li>a {
     padding: 10px;
     color: @white;
   }
 }
-.photos {
-  width: 100%;
-  background-color: @white;
-  border-top: 2px solid #C6C6D0;
-  position: absolute;
-  img {
-    box-sizing: border-box;
-    width: 50%;
-  }
-}
-.description {
-  font-family:'Arimo', @mainfont, sans-serif;
-  width: 40%;
-  display: inline-block;
-  p {
-    font-size: 38px;
-    display: inline-block;
-    margin-top: 0;
-    margin-left: 10px;
-  }
-}
 
-// todo:spr czy ponizsze klasy wykorzystuje
-// .diagnostics {
-//   color: #064771;
-// }
-// .care {
-//   color: #064771;
-// }
-// .equipment {
-//   color: #C0392B;
-// }
-#carousel-example-generic {
-  overflow: hidden;
-  border-bottom: 30px solid @red;
-  margin-bottom: 20px;
-  box-sizing: content-box;
-}
-.carouselHospital {
-  padding-left: 0;
-  padding-right: 0;
-}
-.ptr {
-  div {
-    padding: 0;
-  }
-  p {
-    text-align: center;
-    padding: 8px;
-  }
-  img {
-    width: 100%;
-  }
-}
-.resonance p {
-  color: @black;
-  background-color: @lightblue;
-}
-.pet {
-  border-right: 3px solid @white;
-  p {
-    color: @white;
-    background-color: @navyblue;
-  }
-}
-.tomograph {
-  border-right: 3px solid @white;
-  p {
-    color: @black;
-    background-color: #E2D4C9;
-  }
-}
 
 /*footer*/
 footer {
