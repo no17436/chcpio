@@ -59,7 +59,6 @@ h1 {
       }
     }
   }
-
   .e-rejestracja {
     background-color: @green;
     border: 2px solid #CCC;
@@ -169,9 +168,21 @@ footer {
   height: 70px;
 }
 /*CSS DLA PORADNI*/
+.list-group-item {
+  border: 0;
+}
 .sectionCare {
   margin: 20px 0 20px 0;
   padding-left: 0;
+  .extraMenu li {
+    border: 2px solid #CCC;
+    text-transform: uppercase;
+    a {
+      font-family: 'Abel', sans-serif;
+      font-size: 19px;
+      color: @black;
+    }
+  }
 }
 .main {
   background-color: #FAF7F6;
