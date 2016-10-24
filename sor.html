@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chorzowskie Centrum Pediatrii i Onkologii</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"
+    integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+    <link rel="stylesheet/less" type="text/css" href="css/main.less">
+    <link rel="stylesheet" href="css/mediaquery.css">
+    <link rel="stylesheet/less" type="text/css" href="css/clinic.less">
+    <link rel="stylesheet/less" type="text/css" href="css/contact.less">
+    <link rel="stylesheet/less" type="text/css" href="css/hospital.less">
+    <link rel="stylesheet/less" type="text/css" href="css/mediaquery.less">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <!-- logo -->
+    <header class="container">
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <a href="/">
+            <h1>
+              <img src="photos/logo_chcpio.svg" class="logoChcpio">
+              <img src="photos/chcpio.png" alt="nazwa Chorzowskie centrum
+                periatri i onkologi">
+            </h1>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- menu -->
+    <nav class="navbar navbar-default">
+      <div class="container defaultMainMenu">
+        <!-- hamburger menu -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+           data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <!-- dropdown -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle"
+                data-toggle="dropdown" role="button"
+                aria-haspopup="true"
+                aria-expanded="false">szpital<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Dyrekcja/ Administracja</a></li>
+                <li><a href="#">Darczyńcy</a></li>
+                <li><a href="#">Historia</a></li>
+                <li><a href="#">Certyfikaty</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Aktualności</a></li>
+              </ul>
+            </li> <!--end dropdown -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle"
+                data-toggle="dropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">poradnie<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Poradnia Otolaryngologiczna Dla Dzieci</a></li>
+                <li><a href="#">Poradnia Chirurgiczna Dla Dzieci</a></li>
+                <li><a href="#">Poradnia Ortopedyczno-Urazowa Dla Dzieci</a></li>
+                <li><a href="#">Poradnia Alergologiczna i Immunologiczna Dla Dzieci</a></li>
+                <li><a href="#">Poradnia Nefrologiczna Dla Dzieci</a></li>
+                <li><a href="#">Poradnia Neurologiczna Dla Dzieci</a></li>
+                <li><a href="#">Poradnia Hematologiczno - Onkologiczna Dla Dzieci</a></li>
+                <li><a href="#">Poradnia Okulistyczna Dla Dzieci</a></li>
+                <li><a href="#">Poradnia Audiologiczna</a></li>
+              </ul>
+            </li> <!--end dropdown -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle"
+                data-toggle="dropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">oddziały<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Hematologii i Onkologii Dziecięcej</a></li>
+                <li><a href="#">Chirurgii Dziecięcej z Ośrodkiem Chirurgii Małoinwazyjnej dla Dzieci</a></li>
+                <li><a href="#">Niemowlęcy i Patologii Nowodorka</a></li>
+                <li><a href="#">Otolaryngologii Dziecięcej</a></li>
+                <li><a href="#">Pediatryczny dla Dzieci Starszych</a></li>
+                <li><a href="#">Alergologii i Immunologii Dziecięcej</a></li>
+                <li><a href="#">Neurologii Dziecięcej</a></li>
+                <li><a href="#">Nefrologii Dziecięcej</a></li>
+                <li><a href="#">Intensywnej Terapii dla Dzieci</a></li>
+                <li><a href="#">Okulistyki Dziecięcej</a></li>
+                <li><a href="#">Ortopedii i Traumatologii Narządu Ruchu dla Dzieci</a></li>
+                <li><a href="#">Szpitalny Oddział Ratunkowy</a></li>
+              </ul>
+            </li> <!--end dropdown -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle"
+                data-toggle="dropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">diagnostyka<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">O pracowni</a></li>
+                <li><a href="#">Kadra</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">PET</a></li>
+                <li><a href="#">Tomografia Komputerowa</a></li>
+                <li><a href="#">Rezonans Magnetyczny</a></li>
+                <li><a href="#">Pracownia RTG</a></li>
+                <li><a href="#">Pracownia USG</a></li>
+                <li><a href="#">Pracownia Radiologii Zabiegowej</a></li>
+                <li><a href="#">Pracownie Izotopowe</a></li>
+                <li><a href="#">Pracownia Video i Holter EEG</a></li>
+                <li><a href="#">Pracownia audiologiczna</a></li>
+                <li><a href="#">Pracownia spirometrii</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Laboratorium analityczne</a></li>
+                <li><a href="#">Laboratorium mikrobiologiczne</a></li>
+              </ul>
+            </li> <!--end dropdown -->
+            <li><a href="#">konkursy ofert</a></li>
+            <li><a href="#">zamówienia publiczne</a></li>
+            <li class="dropdown contact">
+              <a href="#" class="dropdown-toggle"
+                data-toggle="dropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">kontakt<span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Spis telefów</a></li>
+                <li><a href="#">Dane kontaktowe</a></li>
+                <li><a href="#">Dojazd</a></li>
+              </ul>
+            </li>
+            <li><a href="#">e-rejestracja</a></li>
+            <!--end dropdown -->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <section class="container">
+      <div class="row boxDefault">
+        <div class="col-md-6">
+          <table class="table">
+            <tr>
+              <th colspan="2">
+                <h2>Zespół</h2>
+              </th>
+            </tr>
+            <tr>
+              <td>Lekarz koordynator Szpitalnego Oddziału Ratunkowego</td>
+            </tr>
+            <tr>
+              <td>dr n. med. Krzysztof Mandat</td>
+            </tr>
+            <tr>
+              <td>Pielęgniarka koordynująca pracą Szpitalnego
+              Oddziału Ratunkowego</td>
+            </tr>
+            <tr>
+              <td>Małgorzata Cupiał</td>
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-offset-1 col-md-4 extraMenu">
+          <ul class="list-group">
+            <li class="list-group-item"><a href="#">Zespół</a></li>
+            <li class="list-group-item"><a href="#">Dane teleadresowe</a></li>
+            <li class="list-group-item"><a href="#">zakres działania</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row boxDefault">
+        <div class="col-md-7">
+          <table class="table">
+            <tr>
+              <th colspan="2">
+                <h2>Dane teleadresowe</h2>
+              </th>
+            </tr>
+            <tr>
+              <td colspan="2">Szpitalny Oddział Ratunkowy mieści się w Chorzowie
+              przy ulicy Truchana, na parterze budynek F.
+              </td>  
+            </tr>
+            <tr>
+              <td>telefon:</td>
+              <td>32 34 71 223; 32 34 71 224</td>
+            </tr>
+            <tr>
+              <td>email:</td>
+              <td>sor@chcpio.pl</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="container boxDefault">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Czym jest SOR, zakres działania</h2>
+          <p>Szpitalny Oddział Ratunkowy to oddział udzielający natychmiastowej,
+           wczesnej pomocy szpitalnej wszystkim pacjentom w stanie  nagłego
+           pogorszenia zdrowia i/ lub bezpośredniego zagrożenia życia.</p>
+
+           <p>Na Szpitalnym Oddziale ratunkowym udzielane są świadczenia opieki
+           zdrowotnej polegające na wstępnej diagnostyce oraz podjęciu leczenia
+            w zakresie niezbędnym dla stabilizacji funkcji życiowych.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container boxDefault">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Kiedy należy udać się do SOR</h2>
+          <p>W Szpitalny Oddział Ratunkowy powinny trafić osoby (przywiezione
+          przez zespół ratownictwa medycznego lub zgłaszające się samodzielnie),
+          które wymagają szybkiego przyjęcia, stabilizacji funkcji życiowych,
+          wstępnej diagnostyki i leczenia.</p>
+
+          <p>Szpitalny Oddział Ratunkowy zajmuje się leczeniem dzieci wyłącznie
+          w sytuacjach bezpośredniego zagrożenia życia lub stanach nagłych,
+          mogących prowadzić do istotnego uszczerbku zdrowia.</p>
+
+          <p>Mając na uwadze zadowolenie pacjentów ze świadczonych usług oraz
+          w trosce o ich czas, dzieci nie będące w stanie nagłego zagrożenia
+          zdrowia i życia powinny zgłaszać się do Poradni Lekarza Rodzinnego,
+          a poza godzinami pracy POZ do lekarza Nocnej i Świątecznej
+          Opieki Zdrowotnej.</p>
+        </div>
+      </div>
+    </section>
+  </body>
